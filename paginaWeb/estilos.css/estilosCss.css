@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+    font-family: "Lilita One", serif;
+}
+body{
+    font-size: 16px;/*1rem equivale a 10px*/
+    background-color: cornflowerblue;
+}
+header{
+    color:ghostwhite;
+    text-align: center;
+    background-image:url("/paginaWeb/imagenes/logoUni.png");
+    background-repeat: no-repeat;
+}
+header.titPrin{
+    font-size: 4rem;
+    border: 5px;
+    border-color: black;
+}
+.titPrin{
+    font-size: 3rem;
+}
+.minText{
+    font-size: 2rem;
+}
+.linkTit{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+main{
+    color: ghostwhite;
+}
+
+
+
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+a.link:hover{
+    background-color:crimson;
+    color: ghostwhite;
+}
+
+
+.navegador{
+    background-color:ghostwhite;
+    padding: 2rem;   
+}
+
+.casilla{
+    text-align: center;
+    padding: 2rem;
+    align-content: space-between;
+}
+
+main h3{
+    text-align: center;
+}
+
+div h4{
+    text-align: center;
+}
+section h4{
+    text-align: center;
+}
+.gustos{
+    justify-content: space-between;
+    display: flex;
+}
+
+form{
+    background-color: cornflowerblue;
+    color: ghostwhite;
+    padding: 25px;
+}
+
+
+
+/*<section>
+            <form action="">
+                <fieldset>
+                    <legend>Contactanos</legend>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                        <label for="">Apellido Paterno</label>
+                        <input type="text" placeholder="Apellido P">
+                        <label for="">Apellido Materno</label>
+                        <input type="text" placeholder="Apellido M">
+                    </div>
+                    <div>
+                        <label for="">Numero celular</label>
+                        <input type="tel" placeholder="Numero">
+                    </div>
+                    <div>
+                        <label for="">Correo Electrónico</label>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div>
+                        <input type="submit" placeholder="Enviar">
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+*/
