@@ -1,0 +1,41 @@
+html{
+
+}
+
+body{
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.tabla{
+    text-align: center;
+    align-content: space-between;
+    padding:0px 30%;
+    color: cornsilk;
+}
+.link{
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a.link{
+    color: cornsilk;
+}
+.link:hover{
+    background-color: cornsilk;
+    color: black;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
+
