@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosP3.css">
+    <title >Practica 3</title>
+    <link rel="icon" href="imagenes/bandera.jfif" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Lugares para visitar en Japon</h1>
+    </header>
+    <main>
+        <section>
+            <table border="4">
+                <thead>
+                    <th>Parque de Hitsujiyama</th>
+                    <th>El Valle de Kiso</th>
+                    <th>Kanazawa</th>
+                    <th>Kawagoe</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img class="imagen" onclick="imagen1()" src="imagenes/parque.jpg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen2()" src="imagenes/valleKiso.jpg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen3()" src="imagenes/kanazawa.jpg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen4()" src="imagenes/kawagoe.jpg" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section class="espFrame">
+            <iframe id="frameImagen" class="frame" src="" frameborder="4" title="Lugares que vistar en Japón"></iframe>
+        </section>
+    </main>
+    <script>
+        function imagen1(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/parque.jpg"
+        }
+        function imagen2(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/valleKiso.jpg"
+        }
+        function imagen3(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/kanazawa.jpg"
+        }
+        function imagen4(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/kawagoe.jpg"
+        }
+    </script>
+</body>
+</html>

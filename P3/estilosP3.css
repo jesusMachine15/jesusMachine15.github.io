@@ -1,0 +1,20 @@
+html{
+
+}
+body{
+    background-color:crimson;
+}
+.imagen{
+    width: 300px;
+    height: 250px;
+}
+
+.espFrame{
+    align-content: space-between;
+    text-align: center;
+}
+
+.frame{
+    width: 600px;
+    height: 450px;
+}
