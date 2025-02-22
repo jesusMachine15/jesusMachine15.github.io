@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="estilosP3.css">
+    <!--Titulo de la página-->
+    <title >KFC</title>
+    <!--Logo-->
+    <link rel="icon" href="imagenes/logoKFC.png" type="image/png">
+    <!--Fuente de la página-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section>
+            <h1 class="titulos"><a href="" class="link">UPSLP</a></h1>
+            <h2 class="titulos">Programación Web I</h2>
+            <h2 class="titulos">Profesora: Imelda Deyanira Hernández Martínez</h2>
+            <h2 class="titulos">Examen Práctico I</h2>
+        </section>
+        <section class="headerM">
+            <h1 class="titulos">Kentucky Fried Chicken®<span>Marca reservada</span></h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h3 class="titulos">Packs Más Vendidos</h3>
+            <hr>
+            <section class="espFrame">
+                <iframe id="frameImagen" class="frame" src="" frameborder="4" title="Menu"></iframe>
+            </section>
+            <hr>
+            <table border="4" class="menuImg">
+                <thead>
+                    <th><a href="https://kfc.com.mx/es/menu/mega_box_ke_tiras_8416" class="link">MEGA BOX KE TIRAS</a></th>
+                    <th><a href="https://kfc.com.mx/es/menu/bucket_clasico_de_16_piezas_45f9" class="link">BUCKET CLÁSICO DE 16 PIEZAS</a></th>
+                    <th><a href="https://kfc.com.mx/es/menu/bucket_clasico_de_12_piezas_e235" class="link">BUCKET CLÁSICO DE 12 PIEZAS</a></th>
+                    <th><a href="https://kfc.com.mx/es/menu/brave_challenge_bb9d" class="link">BRAVE CHALLENGE</a></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img class="imagen" onclick="imagen1()" src="imagenes/MEGA_KTIRAS.jpeg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen2()" src="imagenes/BUCKET_16PIEZAS.jpeg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen3()" src="imagenes/BUCKET _12PIEZAS.jpeg" alt=""></td>
+                        <td><img class="imagen" onclick="imagen4()" src="imagenes/braveChallenge.jpeg" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <cite>https://fonts.google.com/selection/embed</cite>
+        </section>
+    </main>
+    <script>
+        function imagen1(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/MEGA_KTIRAS.jpeg"
+        }
+        function imagen2(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/BUCKET_16PIEZAS.jpeg"
+        }
+        function imagen3(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/BUCKET _12PIEZAS.jpeg"
+        }
+        function imagen4(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="imagenes/braveChallenge.jpeg"
+        }
+    </script>
+    </main>
+</body>
+</html>

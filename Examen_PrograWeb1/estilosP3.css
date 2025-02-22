@@ -1,0 +1,53 @@
+html{
+    color: black;
+    font-family: "Sigmar", serif;
+}
+body{
+    background-color: floralwhite;
+    align-content: space-between;
+}
+main{
+    background-color: rgb(235, 33, 33);
+    justify-content: space-between;
+}
+.imagen{
+    width: 230px;
+    height: 350px;
+}
+span{
+    font-size: 10px;
+}
+.espFrame{
+    justify-content: space-between;
+
+}
+.frame{
+    padding: 0px 420px;
+    text-align: center;
+    width: 480px;
+    height: 320px;
+}
+.titulos{
+    text-align: center;
+}
+
+.menuImg{
+    justify-content: space-between;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    background-color:floralwhite;
+    color: rgb(235, 33, 33);
+}
+
+
+
+
+.headerM{
+    background-color: rgb(235, 33, 33);
+}
