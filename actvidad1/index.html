@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css/style.css">
+    <link rel="stylesheet" href="estilos.css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:
+    ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
+    300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Agregar icono-->
+    <link rel="icon" href="/imagenes/logo.jfif">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1><a href="https://www.skybound.com/invincible" class="link">Invincible</a></h1>
+    </header>
+    <main>
+        <section class="container">
+            <div class="slider_wrapper">
+                <div class="slider">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div>
+                <iframe id="frameImagen" src="" frameborder="1" width="180" height="260" ></iframe>
+            </div>
+            <div class="cajonTexto">
+                <h2 id="nombre"></h2>
+                <p id="infoGen"></p>
+            </div>
+            <div>
+                <ul class="lista">
+                    <li class="tipo opcion" onclick="invincible1()">Prisoner Invincible</li>
+                    <li class="tipo opcion" onclick="invincible2()">Prisoner Invincible</li>
+                    <li class="tipo opcion" onclick="invincible3()">Prisoner Invincible</li>
+                    <li class="tipo opcion" onclick="invincible4()">Prisoner Invincible</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <form action="">
+        <fieldset>
+            <legend class="legend">Datos personales</legend>
+            <label title="Nombre" for="">Nombre</label>
+            <input type="text" placeholder="Nombre">
+            <label title="Apellido Paterno" for="">Apellido Paterno</label>
+            <input type="text" placeholder="Apellido Paterno">
+            <label title="Apellido Materno" for="">Apellido Materno</label>
+            <input type="text" placeholder="Apellido Materno">
+            <br>
+            <br>
+            <br>
+            <label title="Numero" for="">Numero de celular</label>
+            <input type="tel" placeholder="Numero">
+            <label title="Correo" for="">Correo</label>
+            <input type="email" placeholder="E-mail">
+            <label title="Contraseña" for="">Contraseña</label>
+            <input type="password" placeholder="Contraseña">
+            <br>
+            <br>
+            <label for="">Notificaciones</label>
+            <br>
+            <label for="">Si</label>
+            <input type="radio" name="notificacion">
+            <label for="">No</label>
+            <input type="radio" name="notificacion">
+            <br>
+            <br>
+            <button submint="" required  >Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>My Favorite Invincible</legend>
+            <br>
+            <img src="/imagenes/Invinicble-Comics.webp" alt="">
+            <br>
+            <label for="">Versión favorita de la Invincible War</label>
+            <select name="" id="" size="5">
+                <option selected value="Viltrum Invincible">Viltrum Invincible</option>
+                <option value="Mohawk Invincible">Mohawk Invincible</option>
+                <option value="Sinister Invincible">Sinister Invincible</option>
+                <option value="Bulletproof Invincible">Bulletproof Invincible</option>
+                <option value="Lensless Invincible">Lensless Invincible</option>
+                <option value="Prisoner Invincible">Prisoner Invincible</option>
+                <option value="Dark Invincible">Dark Invincible</option>
+                <option value="Cowl Invincible">Cowl Invincible</option>
+            </select>
+        </fieldset>
+    </form>
+    <script>
+        function invincible1(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="/imagenes/prisonerInvincible.jpg"
+            let nombre = document.getElementById("nombre");
+            nombre.innerHTML="Prisoner Invincible"
+            let infoGen = document.getElementById("infoGen");
+            infoGen.innerHTML="Prisoner Invincible is an evil variant of the main Invincible and a supporting antagonist in the third season of the series.Prisoner Invincible was one of the variants of Invincible who would be assembled by Angstrom Levy to start the Invincible War in the mainstream dimension."
+        }
+        function invincible2(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="/imagenes/mohawkInvincible.jpg"
+            let nombre = document.getElementById("nombre");
+            nombre.innerHTML="Mohawk Invincible"
+            let infoGen = document.getElementById("infoGen");
+            infoGen.innerHTML="Mohawk Invincible, is an alternate version of the main Invincible from another universe and a supporting antagonist in the third season of Invincible, and is another one of the most powerful Invincibles in the Multiverse.Mohawk Invincible was one of the variants of Invincible who would be assembled by Angstrom Levy to start the Invincible War in the mainstream dimension."
+        }
+        function invincible3(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="/imagenes/sinistreInvincible.jpg"
+            let nombre = document.getElementById("nombre");
+            nombre.innerHTML="Sinistrer Invincible"
+            let infoGen = document.getElementById("infoGen");
+            infoGen.innerHTML="Sinister Invincible is an evil version of the main Invincible from an alternate universe. He is considered one of the most powerful and evil versions of Invincible in the Multiverse.Sinister Invincible was one of the variants of Invincible who would be assembled by Angstrom Levy to start the Invincible War in the mainstream dimension."
+        }
+        function invincible4(){
+            let frameImagen = document.getElementById("frameImagen");
+            frameImagen.src ="/imagenes/viltrumInvincible.jpg"
+            let nombre = document.getElementById("nombre");
+            nombre.innerHTML="Viltrum Invincible"
+            let infoGen = document.getElementById("infoGen");
+            infoGen.innerHTML="Viltrum Invincible is an evil variant of the main Invincible from an alternate universe and a supporting antagonist in the third season of the series.Viltrum Invincible was one of the variants of Invincible who would be assembled by Angstrom Levy to start the Invincible War in the mainstream dimension."
+        }
+    </script>
+</body>
+</html>
+
+
+<label for=""></label>

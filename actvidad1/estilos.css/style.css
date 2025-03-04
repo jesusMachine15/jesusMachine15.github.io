@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;
+    font-family: "Sigmar", sans-serif;
+}
+body{
+    font-size: 16px;
+    text-align: center;
+    background-color:khaki;
+}
+form{
+    background-color: cornflowerblue;
+}
+.legend{
+    text-align: center;
+}
+
+.cajonTexto{
+    text-align: center;
+}
+.info{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+}
+iframe{
+    display: flex;
+    justify-content: space-between;
+}
+.lista{
+    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+}
+.tipo{
+    padding: 20px 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+a:hover.link{
+    background-color: cornflowerblue;
+    color: khaki;
+}
+li:hover.opcion{
+    background-color: cornflowerblue;
+    color: khaki;
+}
