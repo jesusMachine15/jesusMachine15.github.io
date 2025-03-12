@@ -1,0 +1,51 @@
+html{
+    font-family: "Doto", sans-serif;
+    background-color: cadetblue;
+    color: cornsilk;
+}
+ul{
+    list-style-type: none;
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    font-family: "Ponomar", system-ui;
+}
+#titPrin:hover{
+    background-color: darkgrey;
+    color: aquamarine;
+}
+#activo{
+    background-color: aquamarine;
+    color: black;
+}
+a{  
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: 25px;
+
+}
+a:hover{
+    color: hotpink;
+    background-color: cornsilk;
+    border-radius: 6px;
+}
+.capa1{
+    margin-left: 25%;
+}
+h1{
+    text-align: center;
+}
+ul{
+    font-family: "Pacifico", cursive;
+}
+.capa1 h3{
+    font-family: "Pacifico", cursive
+}
+
+
