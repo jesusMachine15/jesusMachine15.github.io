@@ -1,0 +1,44 @@
+.contenedorPrin{
+    position: relative;
+    background-color: cornflowerblue;
+    height: 100px;
+}
+.caja1{
+    position: relative;
+    background-color: black;
+    height: 70%;
+    left: 50%;
+}
+.caja2{
+    position: absolute;
+    background-color: rgb(255, 2, 2);
+    height: 70%;
+    width: 50%;
+    left: 50%;
+    top: 40%;
+}
+.caja3{
+    position: absolute;
+    background-color: rgb(48, 2, 255);
+    height: 70%;
+    width: 50%;
+    right: 50%;
+    top: 40%;
+}
+.caja4{
+    position: absolute;
+    background-color: rgb(2, 255, 99);
+    height: 70%;
+    width: 50%;
+    right: 50%;
+    top: 70%;
+}
+.caja5{
+    position: fixed;
+    background-color: rgb(2, 255, 99);
+    height: 70%;
+    bottom: 0px;
+    width: 50%;
+    z-index: 4;
+    top: 70%;
+}
