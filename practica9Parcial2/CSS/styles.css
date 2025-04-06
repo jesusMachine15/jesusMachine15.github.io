@@ -1,0 +1,123 @@
+html{
+    background-color: #09ff00;
+    margin: auto;
+}
+body {
+    width: 75%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  #px {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 109, 179);
+  }
+  
+  #pt {
+    width: 72pt;
+    height: 72pt;
+    background-color: #d53e3e;
+  }
+  
+  #pc {
+    background-color: rgb(54, 201, 81);
+    width: 6pc;
+    height: 6pc;
+  }
+  
+  #in {
+    background-color: rgb(232, 255, 103);
+    width: 1in;
+    height: 1in;
+  }
+  
+  #cm {
+    background-color: rgb(76, 55, 7);
+    width: 2.54cm;
+    height: 2.54cm;
+  }
+  
+  #mm {
+    background-color: rgb(217, 127, 255);
+    width: 25.4mm;
+    height: 25.4mm;
+  }
+  
+  #Q {
+    background-color: rgb(0, 162, 255);
+    width: 101.6Q;
+    height: 101.6Q;
+  }
+  
+  #em {background-color: rgb(173, 105, 147);
+    font-size: 2em;
+    width: 10em;
+    height: 2em;
+  }
+  
+  #rem {
+    background-color: rgb(64, 255, 214);
+    font-size: 2rem;
+    width: 10rem;
+    height: 2rem;
+  }
+  
+  #percent {
+    background-color: rgb(223, 255, 83);
+    width: 50%;
+    height: 50%;
+  }
+  
+  #vw {
+    background-color: rgb(61, 42, 65);
+    width: 20vw;
+    height: 10vh;
+  }
+  
+  #vh {
+    background-color: rgb(255, 54, 54);
+    width: 10vw;
+    height: 20vh;
+  }
+  
+  #vmin {
+    background-color: rgb(247, 255, 8);
+    width: 10vmin;
+    height: 10vmin;
+  }
+  
+  #vmax {
+    background-color: #09ff00;
+    width: 10vmax;
+    height: 10vmax;
+  }
+  
+  #ex {
+    background-color: rgb(45, 30, 122);
+    font-size: 20px;
+    width: 10ex;
+    height: 5ex;
+  }
+  
+  #ch {
+    background-color: rgb(186, 186, 186);
+    font-size: 20px;
+    width: 20ch;
+    height: 3ch;
+  }
+  
