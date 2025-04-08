@@ -1,0 +1,32 @@
+html{
+    background-color: darkseagreen;
+}
+body{
+    margin: auto;
+    background-color: cornsilk;
+    width: 85%;
+    text-align: center;
+}
+#mostrar{
+    border-radius: 20%;
+    background-color: darkgreen;
+    color: burlywood;
+}
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.imagen img{
+    width:60%;
+    height:85%;
+    border-radius:20%;
+}
+#mostrar:hover{
+    background-color: burlywood;
+    color: darkgreen;
+}
+#elementos{
+    opacity: 0;
+}
+
