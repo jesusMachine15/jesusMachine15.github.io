@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
+    <script src="script.js" type=""></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="matematicas.jfif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Operaciones Basicas JS</title>
+</head>
+<body>
+    <form action="" class="shadow">
+        <h1>Operaciones</h1>
+        <br>
+        <label for="numero1">Numero 1:</label>
+        <input type="text" id="numero1" placeholder="Escribe un numero">
+        <br>
+        <br>
+        <br>
+        <label for="numero2">Numero 2:</label>
+        <input type="text" id="numero2" placeholder="Escribe un numero">
+        <br>
+        <br>
+        <br>
+        <div class="operaciones">
+            <input type="button" id="suma" name="suma" value="Suma" onclick="sumar()">
+            <input type="button" id="resta" name="resta" value="Resta" onclick="restar()">
+            <input type="button" id="multiplica" name="multiplica" value="Multiplicar" onclick="multiplicar()">
+            <input type="button" id="divide" name="divide" value="Dividir" onclick="dividir()">
+        </div>
+        <h2>El resultado es: </h2>
+        <br>
+        <br>
+        <br>
+        <p name="resultado" id="resultado"></p>
+    </form>
+</body>
+</html>
