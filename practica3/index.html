@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Diagnóstico</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://w7.pngwing.com/pngs/274/931/png-transparent-soldier-infantry-second-world-war-north-african-campaign-germany-soldier-people-infantry-troop.png">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Diagnóstico</h1>
+    <form id="diagnosticForm">
+      <div class="question">
+        <p>1. ¿Cuándo comenzó la Segunda Guerra Mundial?</p>
+        <label><input type="radio" name="q1" value="a" required /> a) 1939</label>
+        <label><input type="radio" name="q1" value="b" /> b) 1940</label>
+        <label><input type="radio" name="q1" value="c" /> c) 1929</label>
+      </div>
+
+      <div class="question">
+        <p>2. ¿Cómo se llamaban los dos grupos de naciones?</p>
+        <label><input type="radio" name="q2" value="a" required /> a) Los aliados y Las potencias del Eje</label>
+        <label><input type="radio" name="q2" value="b" /> b) Los dictadores y Los demócratas</label>
+        <label><input type="radio" name="q2" value="c" /> c) Los orientales y Los occidentales</label>
+      </div>
+
+      <div class="question">
+        <p>3. ¿Quiénes eran los países que apoyaban a Alemania?</p>
+        <label><input type="radio" name="q3" value="a" required /> a) Holanda, Francia y Polonia</label>
+        <label><input type="radio" name="q3" value="b" /> b) Japón, Italia y la URSS</label>
+        <label><input type="radio" name="q3" value="c" /> c) Afganistán, Egipto y Japón</label>
+      </div>
+
+      <div class="question">
+        <p>4. ¿Quiénes eran los países que apoyaban a Estados Unidos?</p>
+        <label><input type="radio" name="q4" value="a" required /> a) Inglaterra, Francia y Polonia</label>
+        <label><input type="radio" name="q4" value="b" /> b) México, Francia y España</label>
+        <label><input type="radio" name="q4" value="c" /> c) Francia, Inglaterra y la URSS</label>
+      </div>
+
+      <div class="question">
+        <p>5. ¿Qué arma definió el destino de la guerra?</p>
+        <label><input type="radio" name="q5" value="a" required /> a) Gas Mostaza</label>
+        <label><input type="radio" name="q5" value="b" /> b) Bomba atómica</label>
+        <label><input type="radio" name="q5" value="c" /> c) Tanques</label>
+      </div>
+
+      <div class="question">
+        <p>6. ¿Quién desarrolló esta arma?</p>
+        <label><input type="radio" name="q6" value="a" required /> a) Oppenheimer</label>
+        <label><input type="radio" name="q6" value="b" /> b) Heisenberg</label>
+        <label><input type="radio" name="q6" value="c" /> c) Albert Einstein</label>
+      </div>
+
+      <div class="question">
+        <p>7. ¿En qué año culminó la guerra?</p>
+        <label><input type="radio" name="q7" value="a" required /> a) 1943</label>
+        <label><input type="radio" name="q7" value="b" /> b) 1945</label>
+        <label><input type="radio" name="q7" value="c" /> c) 1949</label>
+      </div>
+
+      <button type="submit">Evaluar</button>
+    </form>
+
+    <div id="results"></div>
+    <canvas id="resultsChart" width="400" height="200"></canvas>
+    <button id="downloadPDF">Descargar PDF</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
