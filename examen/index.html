@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Examen Parcial 3</title>
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="estacionamiento.png">
+</head>
+<body>
+  <div class="calculador">
+    <form action="">
+        <legend id="titulo">Calcular renta de estacionamiento</legend>
+        <br>
+        <br>
+        <label for="numero">Horas:</label>
+        <select id="numero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="categoria">Selecciona una categoría:</label>
+        <select id="categoria">
+            <option value="20">Coche chico</option>
+            <option value="30">Camioneta</option>
+            <option value="40">Camión</option>
+        </select>
+        <br>
+        <br>
+        <br>
+    </form>
+    <button onclick="calcular()">Calcular</button>
+    <h3>Resultado: <span id="resultado">-</span></h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

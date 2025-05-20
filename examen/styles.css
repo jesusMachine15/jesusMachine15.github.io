@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(3, 3, 3);
+    background-image: url("estacionamiento.png");
+    background-repeat: repeat;
+    padding-bottom:25%;
+    margin: auto;
+}
+form{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    background-color: rgb(3, 255, 75);
+    border-radius: 10.5%;
+}
+.calculador{
+    text-align: center;
+    background-color: rgb(100, 201, 116);
+    margin: auto;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+body{
+    margin: auto;
+    padding-top: 10%;
+}
+#titulo{
+    font-size: 125%;
+}
