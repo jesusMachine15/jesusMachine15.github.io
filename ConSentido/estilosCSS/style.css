@@ -443,6 +443,8 @@ h1{
     width: 100%;
     text-align: center;
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: black;
 }
 .fotoDescripcion img{
     width: 100%;
