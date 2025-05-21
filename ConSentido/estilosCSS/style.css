@@ -463,6 +463,10 @@ h1{
     text-decoration: none;
     color: black;
 }
+.fotoDescripcion a {
+    text-decoration: none;
+    color: black;
+}
 @media (max-width: 767px) {
     #menuProductos {
         grid-template-columns: repeat(2, 1fr);
