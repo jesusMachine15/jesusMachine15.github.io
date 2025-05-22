@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="nikeLogo.png">
+  <title>Registrate en Nike</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <form id="registroForm">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="numero">Numero:</label><br>
+            <input type="number" id="numero" name="numero" required><br><br>
+
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" required><br><br>
+            
+            <label for="pais">Pais</label>
+            <Select id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Guayana Francesa">Guayana Francesa</option>
+                <option value="Granada">Granada</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Guayana">Guayana</option>
+                <option value="Haití">Haití</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="México">México</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Panamá">Panamá</option>
+                <option value="Perú">Perú</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="República Dominicana">República Dominicana</option>
+                <option value="Surinam">Surinam</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </Select><br><br>
+            <button id="boton" type="submit">Registrar</button>
+        </form>
+    </div>
+
+  <div id="resultado" class="resultado"></div>
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>
