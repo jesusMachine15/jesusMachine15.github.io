@@ -90,12 +90,13 @@
 </section>
 	<section id="reservaciones" class="seccionFormulario">
 	<h2 class="tituloSeccion">Reservar una mesa</h2>
-	<form id="formReservacion" class="formularioReservacion" method="POST" enctype="text/plain">
-		<input type="text" id="nombre" placeholder="Ingresa tu nombre completo" required>
-		<input type="tel" id="telefono" placeholder="Ingresa tu número de teléfono" required>
-		<input type="number" id="personas" placeholder="Ingresa el número de personas que asistirán" required>
-		<input type="date" id="fecha" required>
-		<input type="time" id="hora" required>
+	<form id="formReservacion" class="formularioReservacion" action="https://formsubmit.co/consentido.cafe.sanluispotosi@gmail.com" method="POST" enctype="text/plain">
+		<input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+		<input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required>
+		<input type="number" id="personas" name="personas" placeholder="Ingresa el número de personas que asistirán" required>
+		<input type="email" id="email" name="email" placeholder="Ingrese un correo electrónio" required>
+		<input type="date" id="fecha" name="fecha" required >
+		<input type="time" id="hora" name="hora" required>
 		<button type="submit">Reservar</button>
 	</form>
 </section>
